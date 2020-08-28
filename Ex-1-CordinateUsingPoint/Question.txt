@@ -1,0 +1,51 @@
+ProblemStatement:
+
+The Point class represents a point with x and y coordinates. Create a class Point according to the class diagram given below:
+
+Point:
+
+                               
+
+Method Description:
+
+distance(): This method returns the distance of this point from origin.
+
+distance(Point point): This method returns the distance of this point from the specified point.
+
+
+Use the formula given below to implement the methods:
+
+
+
+Hint: Use Math.sqrt(double d) method to calculate the square root, and Math.round(double d) method to round off the values.
+
+To do: Make a Tester class and test the following functionalities:
+
+Create an object p1 of Point class
+
+Set the values of x and y
+
+display the distance of the point from origin
+
+Create another object p2 of Point class
+
+Set the values of x and y
+
+Display the distance between p1 and p2
+
+Note: You can use the Math class for calculations.
+
+Sample:
+
+Input(for p1):
+
+
+
+Input(for p2):
+
+
+
+Output:
+
+The distance of p1 from p2 is 4.242640687119285
+The distance of p1 from the origin is 3.605551275463989
