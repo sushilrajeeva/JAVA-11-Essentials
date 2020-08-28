@@ -1,0 +1,32 @@
+Problem Statement
+InfyMegaMart is automating the process of bill calculation. 
+They have categorized their customers into two categories- Regular and Privileged. 
+If it is a regular customer, 10% discount is applicable. 
+For privileged customers, 20% discount is applicable.
+
+
+Code in the given Customer class to implement the logic.
+
+Method Description: 
+
+getName(): This method returns the customer's name.
+
+getDiscount(): This method returns the discount percentage.
+
+findDiscountAndName(String inputString): The user input is taken in a string variable in this pattern “CustomerType:CustomerName”. 
+The given input may contain unnecessary spaces before and after the input. 
+This method accepts the string and sets the customer's name and applicable discount.
+
+To test the above functionality, make a Tester class.
+
+Sample:
+
+Input (for regular): "Regular:Jack"
+
+Output: Hi Jack! 10% discount is applicable for you 
+
+ 
+
+Input (for privileged): "Privileged:Mary" 
+
+Output: Hi Mary! 20% discount is applicable for you
