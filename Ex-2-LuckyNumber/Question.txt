@@ -1,0 +1,16 @@
+Problem Statement
+Create a class LuckyNumber which checks if the input is a Lucky number. A lucky number is a number where the sum of squares of every even-positioned digit (starting from the second position) is a multiple of 9.
+
+For e.g. 1623 = 6^2+3^2 = 45 is a multiple of 9 and hence is a Lucky number
+
+Implement the above program using appropriate iterational and conditional control structures.
+
+ 
+
+Sample:
+
+Input: 1623
+Output: The number 1623 is a Lucky number
+
+Input: 1523
+Output: Oops! Not a Lucky number
