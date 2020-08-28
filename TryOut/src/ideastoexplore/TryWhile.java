@@ -14,7 +14,7 @@ public class TryWhile {
 		else if ( pointer % 5 == 0 )
 		break; // break will end the loop so , the while loop stops and anything after break will not be executed
 		value *= 3;
-		System.out.println(value + " " + pointer);
+		System.out.println("Value = " + value + " Pointer = " + pointer);
 		}
 		
 	}
