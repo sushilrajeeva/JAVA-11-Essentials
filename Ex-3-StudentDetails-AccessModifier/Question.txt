@@ -1,0 +1,24 @@
+Create a new Java Project with one package named com.infy.package1 
+which contains the Student Class and another package named com.infy.package2 
+which contains the StudentDetails class according to the class diagrams given below.
+
+
+
+
+
+The Student class contains a parametrized constructor to initialize its instance variables.
+ It also contains getters and setters for its non-public attributes.
+
+The StudentDetails class contains 2 methods i.e. calculatePercentage() and displayStudentDetails(). 
+The calculatePercentage() calculates and prints the percentage of the student whose details are passed to it.
+The displayStudentDetails() prints all the student details including the studentId, studentName, totalMarks and totalMarksObtained 
+in the format given in the expected result.
+
+Expected output:
+
+	Student Details:
+	Student ID: 101
+	Student Name: Alan
+	Student Marks: 400.0
+	Total Marks: 500.0
+	Student Percentage: 80.0%
