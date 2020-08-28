@@ -1,0 +1,39 @@
+
+Problem Statement
+
+The Hogwarts University wants to register students in the University. 
+For this, students are required enter their first name, middle name and last name in the registration form. 
+The University also generates the initials for the student.
+
+Create a class Student, as shown below, to implement logic.
+
+Student:
+
+
+
+Method Description:
+
+change(): 
+	This method removes any leading or trailing spaces from the firstName, middleName, lastName of the Student object. 
+	It also checks whether the middleName is blank or not. If the middleName of the Student is empty, 
+	it changes the middleName to "N.A.". Finally, it returns the Student object.
+
+generateInitials(): 
+	This method  calls the change() method of the Student class. 
+	It returns a string with the first letter of firstName, middleName, lastName respectively of the object returned by the change() method.
+
+To test the functionality make a Tester Class. 
+Create an object of Student class and initialise the instance variables. 
+Using this object, call the methods generateInitials() method of the Student class and display the initials of the Student.
+
+ 
+
+Sample:
+
+Input(for Student) :   
+	First Name : “    Sushil    ” ;
+        Middle Name: “ ” ;  
+        Last Name: “    Rajeev” ;
+
+Output :
+	SNR
