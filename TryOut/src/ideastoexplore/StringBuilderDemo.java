@@ -5,54 +5,41 @@ public class StringBuilderDemo {
 
 	public static void main(String[] args) {
 		
-		//creation of string using string literal
-		String firstString = "Java";
+		//Creating StringBuilder Objects
+		StringBuilder strOne = new StringBuilder("Java");
+		StringBuilder strTwo = new StringBuilder();
+		strTwo.append("Python");
 		
-		//creation of string using new keyword
-		String secondString = new String("Stream");
+		// method will return length of strOne
+		Integer length = strOne.length();
 		
-		/*
-		Task 1 :- using concat() display Java Stream
-		*/
-		System.out.println("------------"+"concat()"+"------------");
-		System.out.println("Concatenating using concat() :- "+firstString.concat(secondString));
-		System.out.println();
+		//method will insert a new string to the original string
+		strTwo.insert(0,"I love ");
+		System.out.println(strTwo);
 		
-		/*
-		Task 2 :- string comparison using equals(), == operator, compareTo()
-		*/
-		System.out.println("------------"+"Comparison(.equals , == , compareTo)"+"------------");
-		String thirdString = "Thomas";
-		String fourthString = "THOMAS";
+		// method will append 2.0
+		strOne.append(9.0);
+		System.out.println(strOne);
 		
-		System.out.println("Comparison of Thomas with THOMAS using equals :- "+thirdString.equals(fourthString));
-		//string1.equalsIgnoreCase(string2) => case insensitive comparison
-		System.out.println("Comparison of Thomas with THOMAS using equals ignoring case:- "+thirdString.equalsIgnoreCase(fourthString));
+		//to print the capacity of object we use capacity()
+		System.out.println(strOne.capacity());
 		
-		System.out.println();
-		//using == operator
-		String fifthString = "Thomas";
-		String sixthString = new String("Thomas");
+		//this method will insert SE into strOne at specified position
+		strOne.insert(length,"SE");
+		System.out.println(strOne);
 		
-		System.out.println("Comparison using == operator :- "+(thirdString==fifthString));
-		//Line 36 both refer to same instance
-	
-		System.out.println("Comparison using == operator with new keyword :- "+(sixthString==fifthString));
-		//Line 39 sixthString refers to instance created in nonpool
+		//this method will create a string from start index till end index as specified
+		String sub = strTwo.substring(4,9);
+		System.out.println(sub);
 		
-		System.out.println();
-		//using compareTo()
+		//this method can convert StringBuilder Object
+		String str = strTwo.toString();
+		System.out.println(str.getClass());
 		
-		/*
-			if s1 and s2 are two strings which are to be compared 
-			if s1 == s2 then output is 0
-			if s1 > s2 then output is 1
-			if s1 < s2 then output is -1
-		*/
+		// this method deletes characters from strOne based on the arguments specified
+		strOne.delete(0,3);
+		System.out.println(strOne);
 		
-		System.out.println("Comparison of Thomas and Thomas using comapreTo :- "+(thirdString.compareTo(fifthString)));
-		System.out.println("Comparison of Thomas and RudolfShelby using compareTo :- "+(thirdString.compareTo("RudolfShelby")));
-	
 	}
 	
 }
