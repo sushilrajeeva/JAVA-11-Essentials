@@ -1,0 +1,36 @@
+Problem Statement
+InfyTraining Institute wants to automate the process of generating the Exam ID of the student. 
+You have to develop an application for the same.
+
+Consider the class given below.
+
+Student:
+
+                            
+
+ 
+
+Method Description: 
+
+generateExamId():
+It generates Exam Id based on the pattern given.
+Pattern is given below,
+Name - John Whedon
+Output - Joh-Whe:4596-36
+<first three letters> - <first three letter after space> : Student Id - square of last digit of student id.
+where the last part of id denotes exam slot.
+
+Input:    
+
+	Student Id:String	Name:String
+	4596			John Whedon
+	3412			Ross Stark
+ 
+
+Note:  Input type of Student Id is String. You have to use the necessary methods to convert it into Integer.
+
+Output:
+
+	Exam Ids are:
+	Joh-Whe:4596-36
+	Ros-Sta:3412-4
