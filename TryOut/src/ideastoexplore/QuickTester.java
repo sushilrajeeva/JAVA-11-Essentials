@@ -3,13 +3,15 @@ package ideastoexplore;
 public class QuickTester {
 
 	public static void main(String[] args) {
-		Integer x = 128;
-		Integer y = 128;
-		System.out.println(x == y);
-		x = 128;
-		y = 128;
-		System.out.println("x = " + x + " y = " + y);
-		System.out.println(x == y);
+		char array_variable [] = new char[10];
+
+	    for (int i = 0; i < 10; ++i){
+
+	        array_variable[i] = 'i';
+
+	        System.out.print(array_variable[i] + "");
+
+	    }
 	}
 	
 }
