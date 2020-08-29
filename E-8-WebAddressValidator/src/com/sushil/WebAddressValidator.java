@@ -8,7 +8,7 @@ public class WebAddressValidator {
 		
 		String regex1 = "(http|https)";
 		String regex2 = "://";
-		String regex3 = "(www)";
+		String regex3 = "(www.)?";
 		String regex4 = "[a-zA-Z]+";
 		String regex5 = "[.]";
 		String regex6 = "(com|org|net)";
