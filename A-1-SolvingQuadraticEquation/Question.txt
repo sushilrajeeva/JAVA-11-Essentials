@@ -1,0 +1,10 @@
+Problem Statement:
+Quadratic equation is an equation with degree 2 in the form ax2 +bx + c = 0, where a, b, c are the coefficients. 
+Write a program to solve a quadratic equation.
+
+Your output will be decided based on the value of the discriminant (which is b2 -4*a*c),
+
+If the discriminant value is 0, then both the roots will be equal. Print the value of the root obtained.
+If the discriminant is greater than 0, then both of the roots are real and distinct. Print both the values.
+If the discriminant is less than 0, then the equation will have no real roots. 
+Print a message which conveys that the roots are not not real.
