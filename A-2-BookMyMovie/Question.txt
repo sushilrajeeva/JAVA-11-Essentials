@@ -1,0 +1,56 @@
+Problem Statement:
+BookMyMovie is an online website, through which the required number of tickets can be booked for a particular show. 
+A maximum number of 15 tickets can be issued per booking. 
+Implement the class BookMyMovie as per the class diagram given below:
+
+
+
+Method Description: 
+
+BookMyMovie(int movieId, int noOfTickets): 
+	This constructor is used to initialize the instance variables with user provided values.
+
+calculateDiscount(): 
+	This method is used to set the discount percentage for a particular booking based on the noOfTickets issued and the movieId. 
+	The condition for calculating the discount is given below: 
+
+
+Note: In this above table, Value column stands for the discount percentage.
+
+calculateTicketAmount(): 
+	This method is used to calculate the ticket amount after deducting the discount amount. 
+	It should call the method calculateDiscount() which sets the discount percentage. 
+	Then the totalAmount should be calculated using the formula given below:
+		totalAmount = baseFare * noOfTickets – (baseFare * noOftickets * (discount/100))
+	The baseFare for a given movieId is given below:
+
+
+
+Once you implement the above class, 
+
+Create a Tester class. 
+Create objects of BookMyMovie class with the sample inputs given below.
+Invoke the calculateTicketAmount() for each of the object and verify with the sample output provided.
+Sample I/O:
+
+Input (For BookMyMovie object 1): 
+movieId = 101
+noOfTickets = 5
+Output (For BookMyMovie object 1): Total amount for booking: 510.0
+ 
+
+Input (For BookMyMovie object 2):
+movieId = 102
+noOfTickets = 4
+Output (For BookMyMovie object 2): Total amount for booking: 680.0
+ 
+
+Input (For BookMyMovie object 3):
+movieId = 103
+noOfTickets = 8
+Output (For BookMyMovie object3): Total amount for booking: 1020.0
+ 
+
+For any invalid movieId, the output should be,
+Sorry! Invalid Movie ID!
+Please check the Movie ID and enter once again.
