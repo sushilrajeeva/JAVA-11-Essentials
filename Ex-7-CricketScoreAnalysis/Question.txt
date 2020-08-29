@@ -1,0 +1,20 @@
+Problem Statement
+We have the scores of last 7 cricket matches India has played. 
+For the purpose of analyzing their performance, 
+we need to find the average score, the number of scores below it, those equal to it, and those above it.
+
+Consider that the scores (runs) are stored in an array of int values.
+
+Create a class CricketScore and write a program to implement the above requirement.
+
+Sample:
+
+Input:
+
+	int score = {281, 344, 265, 272, 236, 324, 287};
+
+Output:
+	The average score of the team is 287 runs
+	No. of matches having score above average is 2
+	No. of matches having score equal to average is 1
+	No. of matches having score below average is 4
