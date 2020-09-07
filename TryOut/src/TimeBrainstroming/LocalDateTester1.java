@@ -129,6 +129,13 @@ public static void main(String[] args) {
 		System.out.println("dateFirst.isBefore(dateSecond) :- "+dateFirst.isBefore(dateSecond));
 		System.out.println("dateFirst.isAfter(dateSecond) :- "+dateFirst.isAfter(dateSecond));
 		
+		LocalDate ld = LocalDate.of(2018,1,1);
+		System.out.println(ld);
+        ld=ld.plusMonths(-2);
+        System.out.println(ld);
+        ld=ld.minusDays(-5);
+        System.out.println(ld);
+		
 	}
 
 }

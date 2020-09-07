@@ -1,6 +1,9 @@
 package TimeBrainstroming;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
 
 
@@ -63,6 +66,14 @@ public class LocalDateTimeTester1 {
         
         
         */
+        
+        LocalDateTime date1=LocalDateTime.now();
+        System.out.println(date1.plus(Period.ofDays(-1)));
+        
+        LocalDateTime date2 = LocalDateTime.of(LocalDate.of(2018, 1, 1), LocalTime.of(0, 0));
+        System.out.println(date2);
+        System.out.println(date2.toString());
+        
 	}
 
 	
