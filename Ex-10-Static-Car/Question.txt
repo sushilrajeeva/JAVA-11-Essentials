@@ -1,0 +1,15 @@
+Problem Statement
+The code given below consists of the class Car and Tester, both having static methods. 
+Some part of the code is missing, you are supposed to code the remaining part to get the output as given below.
+
+Output:
+
+Displaying Car details
+Number of cars created: 3
+Color of the cars:
+Color of the car : Red
+Color of the car : Green
+Color of the car : Blue
+
+Note: Check the project using SonarLint to maintain the coding standards. 
+Ignore the violations which occur due to "System.out" statements.
