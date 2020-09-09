@@ -1,0 +1,14 @@
+Problem Statement:
+Until now you have created a Pizza class for us, which is working well. 
+It has made our work a lot easier. 
+Since we are a very popular pizza place, we have many customers. 
+To keep the customers coming, we have kept many incentives for them. 
+Each customer is called a Foodie. 
+If they purchase at least 5 pizzas per month, we call them Super Foodie and 
+if they purchase at least 15 pizzas per month, we call them Ultra Foodie. 
+Is there a possibility to convert this to a Java program, since it will become easier for us to store all the customer details? 
+
+Note:
+
+Super Foodie get some special discount.
+Ultra Foodie get some special discount and rewards points (1 point for every 10 bucks they spend) which they can use in future.
